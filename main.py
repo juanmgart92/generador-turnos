@@ -1,6 +1,13 @@
+"""
+En una farmacia, se necesita un programa que permita a los clientes sacar turnos para ser atendidos.
+"""
+
 import numeros
 
 def preguntar():
+    """
+    Pregunta al usuario de qué área quiere el turno
+    """
     
     print("Bienvenido a la farmacia 🏥")
     
@@ -28,6 +35,9 @@ def preguntar():
             print("\nOpción inválida")
             
 def inicio():
+    """
+    Inicia el programa
+    """
     while True:
         preguntar()
         try:
